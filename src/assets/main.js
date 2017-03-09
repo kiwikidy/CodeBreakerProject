@@ -59,7 +59,7 @@ function setMessage(message){
  document.getElementById('message').innerHTML = message;
 }
 
-function showAnswer(succes) {
+function showAnswer(success) {
  let code = document.getElementById('code');
  if(success) {
    code.className += ' succes';
